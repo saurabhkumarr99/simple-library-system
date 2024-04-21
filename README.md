@@ -3,6 +3,12 @@
 ## Description
 This is a simple library system API built with Go. It provides CRUD (Create, Read, Update, Delete) operations for managing books.
 
+## Language : Go 
+
+## Project Links
+
+- GitHub: [Simple Library System](https://github.com/saurabhkumarr99/simple-library-system)
+
 ## Installation
 
 ### Prerequisites
@@ -47,6 +53,13 @@ CREATE TABLE IF NOT EXISTS books (
     year VARCHAR(4) NOT NULL
 );
 
+```
+
+## Test 
+```
+ go test
+
+ go test -coverprofile=coverage
 ```
 ## API Documentation
 
